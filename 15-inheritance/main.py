@@ -1,4 +1,4 @@
-class Persona:
+class Person:
     def __init__(self, name, lastname):
         self.name = name
         self.lastname = lastname
@@ -7,7 +7,7 @@ class Persona:
         print("Hello " + user + " I'm " + self.name)
 
 
-class Teacher(Persona):
+class Teacher(Person):
     def __init__(self, name, lastname, course):
         super().__init__(name, lastname)
         self.course = course
@@ -16,7 +16,7 @@ class Teacher(Persona):
         print("Hello " + user + " I'm " + self.name + " your " + self.course + "teacher")
 
 
-persona1 = Persona("Luca", "Rossi")
+persona1 = Person("Luca", "Rossi")
 teacher1 = Teacher("Mario", "Verdi", "math")
 teacher1.greet("User01")
 

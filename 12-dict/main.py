@@ -1,4 +1,4 @@
-persona = {
+person = {
     "name": "Luca",
     "lastname": "Rossi",
     "age": "22",
@@ -9,26 +9,26 @@ persona = {
     }
 }
 
-print(persona.get("nome"))  # Luca
-print(persona.keys())  # List of all keys
-print(persona.items())  # List of tuple
+print(person.get("nome"))  # Luca
+print(person.keys())  # List of all keys
+print(person.items())  # List of tuple
 
-print(persona['name'])
+print(person['name'])
 
-persona['school'] = "A. Moro"
-print(persona)
-persona.update({"school": "A. Moroso"})
-print(persona)
+person['school'] = "A. Moro"
+print(person)
+person.update({"school": "A. Moroso"})
+print(person)
 
-persona.pop("name")
-print(persona)
+person.pop("name")
+print(person)
 
 print("\nSHOW KEYS")
-for x in persona:
+for x in person:
     print(x)
 
 print("\nSHOW VALUES")
-for x in persona.values():
+for x in person.values():
     print(x)
 
-print(persona["address"]["city"])
+print(person["address"]["city"])

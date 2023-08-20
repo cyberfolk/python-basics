@@ -7,9 +7,4 @@ class Person:
         print("Hello " + user + " I'm " + self.name)
 
 
-persona1 = Person("Luca", "Rossi")
-persona2 = Person("Mario", "Verdi")
-persona2.greet("User01")
-
-del persona1.name
-# persona1.greet("User01")  # Error name was deleted
+person1 = Person("luca", "rossi")
