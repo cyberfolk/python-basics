@@ -20,5 +20,5 @@
 - **18** &rarr; JSON
 - **19** &rarr; pip
 - **20** &rarr; Exceptions
-- **21** &rarr; 
-- **22** &rarr; 
+- **21** &rarr; Ex-input
+- **22** &rarr; Str-format
