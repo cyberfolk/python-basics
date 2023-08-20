@@ -18,7 +18,7 @@
 - **16** &rarr; Scope
 - **17** &rarr; Module (datetime, math...)
 - **18** &rarr; JSON
-- **19** &rarr; 
-- **20** &rarr; 
+- **19** &rarr; pip
+- **20** &rarr; Exceptions
 - **21** &rarr; 
 - **22** &rarr; 
