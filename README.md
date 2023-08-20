@@ -14,5 +14,6 @@
 - **12** &rarr; Dict
 - **13** &rarr; Function
 - **14** &rarr; Class
-- **14** &rarr; Inheritance  
+- **15** &rarr; Inheritance
+- **16** &rarr; Scope
 - 

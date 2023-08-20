@@ -1,4 +1,4 @@
-## 13. Inheritance
+## 15. Inheritance
 - Create subclasses
 - Subclasses constructor
 - Super
