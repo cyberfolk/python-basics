@@ -16,4 +16,9 @@
 - **14** &rarr; Class
 - **15** &rarr; Inheritance
 - **16** &rarr; Scope
-- **17** &rarr; Module
+- **17** &rarr; Module (datetime, math...)
+- **18** &rarr; JSON
+- **19** &rarr; 
+- **20** &rarr; 
+- **21** &rarr; 
+- **22** &rarr; 
