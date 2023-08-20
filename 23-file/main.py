@@ -24,7 +24,19 @@ f.write("WRITED LINE")
 f = open("text.txt", "w")
 f.write("WRITED LINE")
 
-# ***********************************************
+# *** REMOVE ************************************
+
+import os
+
+if os.path.exists("out.txt"):
+    os.remove("out.txt")
+else:
+    print("out.txt don't exist")
+
+try:
+    os.rmdir("tmp")
+except FileNotFoundError:
+    print("Dir 'tmp' don't exist.")
 
 
 
